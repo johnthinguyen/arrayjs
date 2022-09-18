@@ -13,13 +13,64 @@
 </head>
 
 <body>
-    <div class="container bg-success p-5 rounded">
-        <div class="form-group p-2">
-            <h3>Arrays practice</h3>
+    <p class="alert alert-success position-fixed w-100 text-center" style="height:60px" id="ketQua"> ->>kết quả</p>
+    <div class="container  p-5 rounded">
+        <div class="form-group p-5 bg-light rounded ">
+            <h1 class="text-center">Arrays practice</h1>
+            <h3 class="text-center">Nhập vào các số để tính toán mà k cần dùng não</h3>
             <input type="text" class="form-control mt-2 w-25" placeholder="Nhap so n" id="nhapsoN">
-            <p class="alert alert-success mt-2 w-25" id="ketQua"> ->>Ket qua</p>
-            <button class="btn btn-dark" id="btnDemSo">Dem so</button>
+
+            <button class="btn btn-success mt-2" id="btnDemSo">đếm số</button>
+            <hr>
+            <h3>1 :Tổng các số dương trong mảng.</h3>
+            <p class="alert alert-success mt-2 w-25" id="ketQua1">=>> Tổng các số dương trong mảng</p>
+            <button class="btn btn-success d-block" id="btnTinhTongDuong">Tính tổng số dương</button>
+            <hr>
+            <h3>2:Đếm có bao nhiêu số dương trong mảng.</h3>
+            <p class="alert alert-success mt-2 w-25" id="ketQua2"> =>> số dương trong mảng</p>
+            <button class="btn btn-success d-block" id="btnsoDuong">Đếm đi</button>
+            <hr>
+            <h3>3:Tìm số nhỏ nhất trong mảng.</h3>
+            <p class="alert alert-success mt-2 w-25" id="ketQua3"> =>> số nhỏ nhất sẽ là số nào đây :))</p>
+            <button class="btn btn-success d-block" id="btnsoNhoNhat">Tìm Thôi</button>
+            <hr>
+            <h3>4:Tìm số dương nhỏ nhất trong mảng.</h3>
+            <p class="alert alert-success mt-2 w-25" id="ketQua4"> =>> số dương nhỏ nhất sẽ là số nào đây ,hay là không
+                có? :))</p>
+            <button class="btn btn-success d-block" id="btnsoDuongNhoNhat">Nhấn để biết nào</button>
+            <hr>
+            <h3>5:Tìm số chẵn cuối cùng trong mảng. Nếu mảng không có giá trị chẵn thì trả về -1.</h3>
+            <p class="alert alert-success mt-2 w-25" id="ketQua5"> =>> Số chẵn cuối cùng sẽ là số nào đây
+            </p>
+            <button class="btn btn-success d-block" id="btnLastEven">Nhấn để biết nào</button>
+            <hr>
+            <h3>6:Đổi chỗ 2 giá trị trong mảng theo vị trí (Cho nhập vào 2 vị trí muốn đổi chỗ giá trị).</h3>
+            <input type="number" class="form-control mt-2 w-25" placeholder="vi tri thu 1" id="viTri1">
+            <input type="number" class="form-control mt-2 w-25" placeholder="vi tri thu 2" id="viTri2">
+            <p class="alert alert-success mt-2 w-25" id="ketQua6"> =>> mảng sau khi đổi sẽ như thế nào?
+            </p>
+            <button class="btn btn-success d-block" id="btnDoiCho">Nhấn để đổi</button>
+            <hr>
+            <h3>7:Sắp xếp mảng theo thứ tự tăng dần</h3>
+            <p class="alert alert-success mt-2 w-25" id="ketQua7"> =>> Mảng sau khi sắp xếp là
+            </p>
+            <button class="btn btn-success d-block" id="btnSapXep">Kết quả là </button>
+            <hr>
+            <h3>8:Tìm số nguyên tố đầu tiên trong mảng. Nếu mảng không có số nguyên tố thì trả về - 1.
+            </h3>
+            <p class="alert alert-success mt-2 w-25" id="ketQua8"> =>> So nguyen dau tien trong mang la:
+            </p>
+            <button class="btn btn-success d-block" id="btnSoNguyenTo">Kết quả là </button>
+            <hr>
+            <h3>10:. So sánh số lượng số dương và số lượng số âm xem số nào nhiều hơn.
+            </h3>
+            <p class="alert alert-success mt-2 w-25" id="ketQua10"> =>> số âm hay số dương lớn hơn đây
+            </p>
+            <button class="btn btn-success d-block" id="btnSoSanh">Kết quả là </button>
+
+
         </div>
+
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
